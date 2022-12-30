@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+.btn {
+  padding: 10px;
+  border: 2px solid orange;
+  border-radius: 20px;
+  color: blue;
+}
+.btn:hover {
+  background-color: orange;
+  color: black;
+  transition: 500ms ease-in-out;
+}
+.txt {
+  margin-top: 40px;
+  font-weight: 900;
+}
+.point {
+  position: absolute;
+  bottom: -10px;
+  left: 47%;
+  width: 50px;
+  height: 4px;
+  background-color: blue;
+  border-radius: 5px;
+}
+.point1 {
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  width: 50px;
+  height: 3px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+
+.other {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  padding: 100px;
+}
+.p {
+  font-size: 12px;
+}
+
+.footer {
+  background-color: black;
+  padding: 20px 100px;
+}
+
+hr {
+  background-color: grey;
+}
+
+.fa-facebook{
+  font-size: 16px;
+  color: skyblue
+}
+.fa-brands{
+  margin-right: 10px ;
+}
+.fa-brands:hover {
+  cursor: pointer;
+}
+
+.fa-whatsapp {
+  color: greenyellow;
+}
+
+.fa-instagram{
+  color: purple;
+}
+.fa-twitter{
+  color: blue;
+}
+
+.fa-solid {
+  color: orange;
+}
+
+.fa-arrow-right-long {
+  color: black;
+  font-weight: 700;
+  height: 12px; 
+  width: 20px;
+}
+
+#i {
+  color: wheat;
+  font-weight: 700;
+  height: 12px; 
+  width: 20px;
+}
+
+.fa-chevron-up {
+  color: black;
+  font-size: 20px;
+}
+
+.fa-location-dot {
+  font-size: 40px;
+}
