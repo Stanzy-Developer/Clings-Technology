@@ -1,4 +1,4 @@
 # clings-Tech
 
 view our page on 
-Stanzy-Developer.github.io/clings-tech/
+ https://stanzy-developer.github.io/clings-Tech/
