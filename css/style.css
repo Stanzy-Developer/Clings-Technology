@@ -107,3 +107,8 @@ hr {
 .fa-location-dot {
   font-size: 40px;
 }
+
+.fa-circle-check {
+  color: rgb(70, 186, 70);
+  font-size: 100px;
+}

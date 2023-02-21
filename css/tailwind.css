@@ -645,11 +645,6 @@ video {
   margin-bottom: 20px;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .ml-\[50px\] {
   margin-left: 50px;
 }
@@ -742,12 +737,8 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-auto {
-  margin-top: auto;
-}
-
-.mb-auto {
-  margin-bottom: auto;
+.mb-\[-60\] {
+  margin-bottom: -60;
 }
 
 .mt-\[100px\] {
@@ -760,10 +751,6 @@ video {
 
 .flex {
   display: flex;
-}
-
-.table {
-  display: table;
 }
 
 .grid {
@@ -817,6 +804,10 @@ video {
 
 .h-\[200px\] {
   height: 200px;
+}
+
+.h-\[50vh\] {
+  height: 50vh;
 }
 
 .h-\[20\%\] {
@@ -1221,8 +1212,8 @@ video {
   font-size: 1.7em;
 }
 
-.text-\[70px\] {
-  font-size: 70px;
+.text-\[50px\] {
+  font-size: 50px;
 }
 
 .text-\[40px\] {
@@ -1452,6 +1443,11 @@ hr {
 
 .fa-location-dot {
   font-size: 40px;
+}
+
+.fa-circle-check {
+  color: rgb(70, 186, 70);
+  font-size: 100px;
 }
 
 .before\:absolute::before {
